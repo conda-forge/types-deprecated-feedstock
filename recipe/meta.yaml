@@ -1,5 +1,5 @@
 {% set name = "types-Deprecated" %}
-{% set version = "1.2.9.20240311" %}
+{% set version = "1.2.15.20241117" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-Deprecated-{{ version }}.tar.gz
-  sha256: 0680e89989a8142707de8103f15d182445a533c1047fd9b7e8c5459101e9b90a
+  sha256: 924002c8b7fddec51ba4949788a702411a2e3636cd9b2a33abd8ee119701d77e
 
 build:
   number: 0
