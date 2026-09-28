@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: types-Deprecated
-  version: "1.3.1.20260728"
+  version: "1.3.1.20260928"
 
 package:
   name: ${{ name | lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/types_deprecated-${{ version }}.tar.gz
-    sha256: cab836fdcf6b57d3e277e62d9d76d8a4c556a2639fd0e90cb555fa0e8300d164
+    sha256: baa950d1a8125c015e4614eedc16fb5401a6d418075a81aea8330cc26b3d4ff6
 
 build:
   number: 0
